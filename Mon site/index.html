@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Mon site</title>
+  <link rel="stylesheet" href="header.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+</head>
+
+
+<body>
+ 
+    <header>
+
+        <div class="container"> <!-- Je fais de mon mieux pr eviter les epsaces entre code.... Mais J'avoue que je trouve plus lisible de laisser un espace entre chaque balise parent/enfant -->
+
+            <div class="header__flex">
+
+                 <div class="header__left">
+
+                     <h1>MON SITE HELPER</h1>
+                
+                 </div>
+
+
+             <div class="header__right"> <!-- Et ici un saut de 2 lignes pr dire en bref, ici nouvelle idée (on s'attaque à autre chose -->
+
+                <nav>
+
+                    <ul class="menu">
+
+                        <li class="titre"><a class="lienNav" href="#">Accueil <i class="fa fa-angle-down"></i></a>
+                        
+                            <ul class="titre__sous-menu">
+
+                                <li><a href="#">Lien 1</a></li>
+                                <li><a href="#">Lien 2</a></li>
+                                <li><a href="#">Lien 3</a></li>
+                                <li><a href="#">Lien 4</a></li>
+
+                            </ul>
+                        
+                        </li>
+
+
+                        <li class="titre"><a class="lienNav" href="#">En savoir plus <i class="fa fa-angle-down"></i></a>
+                        
+                            <ul class="titre__sous-menu">
+
+                                <li><a href="#">Lien 1</a></li>
+                                <li><a href="#">Lien 2</a></li>
+                                <li><a href="#">Lien 3</a></li>
+                                <li><a href="#">Lien 4</a></li>
+
+                            </ul>
+                        
+                        
+                        </li>
+
+                        <li class="titre"><a class="lienNav" href="#">Me contacter <i class="fa fa-angle-down"></i></a>
+                        
+                            <ul class="titre__sous-menu">
+
+                                <li><a href="#">Lien 1</a></li>
+                                <li><a href="#">Lien 2</a></li>
+                                <li><a href="#">Lien 3</a></li>
+                                <li><a href="#">Lien 4</a></li>
+
+                            </ul>
+                        
+                        
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                </div>
+            </div>
+            
+
+            </div>   
+            
+        </div>
+
+        
+
+
+    </header>
+
+
+    <section>
+
+       
+
+            <div id="slider">
+
+               <div id="slide"></div>
+                
+                <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+                <div id="suivant" onclick="ChangeSlide(1)">></div>
+
+            </div>
+
+
+
+        
+
+    </section>
+
+
+
+
+   
+
+
+    <script src="codeJS.js"></script>
+
+</body>
+
+</html>
