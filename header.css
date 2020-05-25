@@ -15,11 +15,11 @@ body {
 
 .container {
 	
-	width: 70%;
+	max-width: 1300px;
 	margin: auto;
     overflow: hidden;
     
-    /* Conseil : mettre un max-width: 1300px : Ce n'est pas mieux de mettre un % ? Ex: max-width: 70% */
+    /* Conseil : mettre un max-width: 1300px */
 }
 
 
@@ -29,7 +29,7 @@ header {
 
     width: 100%;
 
-    /* Conseil: enleve les heigth avant => height: 90px Maitenant => Le header s'agrandit lorsque je passe ma souris sur les nav*/
+    /* Conseil: enleve les heigth avant => height: 90px Maitenant => Le header s'agrandit lorsque je passe ma souris sur les nav ( ce qui est assez jolie donc je laisse*/
     
     border-bottom: 8px solid #347383;
     font-family: 'Roboto', sans-serif;
@@ -180,7 +180,7 @@ header {
 
     width: 100%;
     height: 800px;
-    background: url(Images/slider-image1.jpg);
+    background: url(Images/slider-image2.jpg);
     transition: 2s; /* activer la transition ici pour JS */
     background-size: 100% 100%;
 }

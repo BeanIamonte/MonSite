@@ -42,7 +42,7 @@ function ChangeSlide(sens) {
     } */
 
     document.getElementById("slide").style.backgroundImage = "url('" + slide[numero] + " ')"; // Tu as mit 0 mais c pas numero qui faut mettre ici : slide[numero] ??
-    document.getElementById("slide").style.transition = "2s";
+    document.getElementById("slide").style.transition = "1.5s";
 
 }
 
@@ -63,15 +63,20 @@ function ChangeSlideTimer() {
     switch(numero) {
 
         case 0:
-        
+            
         case 1:
             numero++;
             document.getElementById('slide').style.background = "url('" + slide[numero] + "')";
+            document.getElementById("slide").style.transition = "1.5s";
+            document.getElementById('slide').style.backgroundSize = "cover";
+
         break;
 
         case 2: 
             numero = 0;
             document.getElementById('slide').style.background = "url('" + slide[numero] + "')";
+            document.getElementById("slide").style.transition = "1.5s";
+            document.getElementById('slide').style.backgroundSize = "cover";
         break;
 
         default:
@@ -80,7 +85,7 @@ function ChangeSlideTimer() {
 
 
 
-   }, 3000);
+   }, 7000);
 
 
 
